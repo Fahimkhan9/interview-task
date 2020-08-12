@@ -4,6 +4,7 @@ body {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -24,21 +25,19 @@ nav {
   background-position: right;
   outline: none;
 }
+
 .search-input:focus {
  outline: none;
-
 border-bottom: 2px solid #0ABDE3;
 }
 
-/* .first {
-  padding-bottom: 15px;
-} */
 .main-div {
   position: relative;
   text-align: center;
   color: #fff;
   padding: 0px 40px;
 }
+
 .first-text {
   position: absolute;
   top: 10%;
@@ -48,6 +47,7 @@ border-bottom: 2px solid #0ABDE3;
   line-height: 1.4em;
   word-spacing: 2px;
 }
+
 .second-text {
   position: absolute;
   top: 20%;
@@ -56,6 +56,7 @@ border-bottom: 2px solid #0ABDE3;
   font-size: 1em;
   line-height: 0.5em;
 }
+
 .plus-icon{
     position: absolute;
     top: 30%;
@@ -66,10 +67,7 @@ border-bottom: 2px solid #0ABDE3;
 padding: 12px 23px;
   transform: rotate(360deg);
   border-radius: 50%;
-
 }
-
-/* socail icon */
 
 .icons {
   top: 50%;
@@ -78,9 +76,11 @@ padding: 12px 23px;
   position: absolute;
   display: inline-block;
 }
+
 .icons ul {
   padding: initial;
 }
+
 .icons ul li {
   list-style-type: none;
   height: 40px;
@@ -88,15 +88,18 @@ padding: 12px 23px;
   padding-top: 6px;
   margin-top: 5px;
 }
+
 .icons ul li a {
   color: #99aaab;
 }
+
 .icons ul li a:hover{
     z-index: 1;
     width: 200px;
     border-bottom: 1px solid rgba(0, 0, 0, .5);
     box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3)
 }
+
 .vertical-text {
   top: 40%;
   left: 0;
